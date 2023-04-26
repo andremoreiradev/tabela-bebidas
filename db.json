@@ -1,0 +1,24 @@
+{
+  "bebidas": [
+    {
+      "id": 1,
+      "nome": "Coca Cola"
+    },
+    {
+      "id": 2,
+      "nome": "Grapette"
+    },
+    {
+      "id": 6,
+      "nome": "São Geraldo"
+    }
+  ],
+  "contatos": [
+    {
+      "nome": "Vitor da Silva",
+      "email": "vitor@email.com",
+      "telefone": "8712361231",
+      "id": 1
+    }
+  ]
+}
