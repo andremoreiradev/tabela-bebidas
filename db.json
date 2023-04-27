@@ -1,23 +1,116 @@
 {
   "bebidas": [
     {
-      "id": 1,
-      "nome": "Coca Cola"
+      "nome": "Leite Betania",
+      "descricao": "integral 1L",
+      "quantidade": "17",
+      "foto": "https://a-static.mlcdn.com.br/800x560/leite-integral-betania-uht-1l-itambe/romaobatista/c3ebbe5c7df111eca9384201ac185055/6fe1c9e80c68b71d5a98f90fdbb7b255.jpeg",
+      "id": 1
     },
     {
-      "id": 2,
-      "nome": "Grapette"
+      "nome": "Leite Betania",
+      "descricao": "Desnatado 1L",
+      "quantidade": "17",
+      "foto": "https://th.bing.com/th/id/R.eee505671b5be602e8d2a0ad845025b3?rik=TWIvidxJg05h%2fQ&pid=ImgRaw&r=0",
+      "id": 2
     },
     {
-      "id": 6,
-      "nome": "São Geraldo"
+      "nome": "Leite Betania",
+      "descricao": "Zero Lactose 1L",
+      "quantidade": "17",
+      "foto": "https://th.bing.com/th/id/R.553cea8779a165a5dfcfff1a5d93282a?rik=mzPs6pxyIyiSyg&pid=ImgRaw&r=0",
+      "id": 3
+    },
+    {
+      "nome": "Suco Integral",
+      "descricao": "Tangerina 1L",
+      "quantidade": "12",
+      "foto": "https://localfarmers.com.br/wp-content/uploads/2022/11/sucotangerina300-768x768.png",
+      "id": 4
+    },
+    {
+      "nome": "Suco Organico",
+      "descricao": "Uva 1L",
+      "quantidade": "18",
+      "foto": "https://imgs.ponto.com.br/1540381118/1xg.jpg",
+      "id": 5
+    },
+    {
+      "nome": "Suco Natural",
+      "descricao": "Laranja 1L",
+      "quantidade": "10",
+      "foto": "https://a-static.mlcdn.com.br/800x560/suco-natural-one-laranja-300ml/lopestore/c167a210b6d811edb0b34201ac185019/72dd53dd507514c3f9aaba9a463b830b.jpeg",
+      "id": 6
+    },
+    {
+      "nome": "Tampico",
+      "descricao": "suco 250ml",
+      "quantidade": "17",
+      "foto": "https://a-static.mlcdn.com.br/800x560/suco-tampico-frutas-citricas-zero-450ml/drogariaaraujosa/123595/b614d47d6daea96bb9c9a7b47657bc52.jpeg",
+      "id": 7
+    },
+    {
+      "nome": "Sao Geraldo",
+      "descricao": "refri 1L",
+      "quantidade": "25",
+      "foto": "https://th.bing.com/th/id/R.2af5cd82b402607a0e7661eb858fe45a?rik=l2P5CY0SRGrI%2bA&pid=ImgRaw&r=0",
+      "id": 8
+    },
+    {
+      "nome": "Água indaiá",
+      "descricao": "Sem gás 1,5l",
+      "quantidade": "35",
+      "foto": "https://imgs.casasbahia.com.br/1533429938/1xg.jpg",
+      "id": 9
+    },
+    {
+      "nome": "Coca Cola",
+      "descricao": "Coca 2L",
+      "quantidade": "15",
+      "foto": "https://th.bing.com/th/id/OIP.bk4TA6ZdBhVeekQe2bpfGAHaHa?pid=ImgDet&rs=1",
+      "id": 10
+    },
+    {
+      "nome": "Quinta do Morgado",
+      "descricao": "Suave 750ml",
+      "quantidade": "28",
+      "foto": "https://imgs.casasbahia.com.br/1553268060/1xg.jpg",
+      "id": 11
+    },
+    {
+      "nome": "Grapete",
+      "descricao": "refri 1L",
+      "quantidade": "17",
+      "foto": "https://th.bing.com/th/id/OIP.V4yha3jDx7ZzgYmrFFRxZQHaHa?pid=ImgDet&rs=1",
+      "id": 12
+    },
+    {
+      "nome": "Coca Cola",
+      "descricao": "lata 350ml",
+      "quantidade": "30",
+      "foto": "https://th.bing.com/th/id/R.9ba665217cfa5a1266a8db436df56c1e?rik=9%2bb71maKf6ZXsQ&pid=ImgRaw&r=0",
+      "id": 13
+    },
+    {
+      "nome": "Sprite",
+      "descricao": "lata 350ml",
+      "quantidade": "30",
+      "foto": "https://supernossoio.vtexassets.com/arquivos/ids/212705/Refrigerante-Sprite-Lata-350ml.jpg?v=637808100611030000",
+      "id": 14
+    },
+    {
+      "nome": "Nescau",
+      "descricao": "achocolatado",
+      "quantidade": "15",
+      "foto": "https://th.bing.com/th/id/R.889db0933ef717ade250dd470dcee7e9?rik=sf7eomqzver1pw&pid=ImgRaw&r=0",
+      "id": 15
     }
   ],
   "contatos": [
     {
       "nome": "André Moreira",
-      "email": "andre-moreira.22@hotmail.com",
-      "telefone": "912345892",
+      "email": "andre_moreira.22@hotmail.com",
+      "telefone": "85997575439",
       "id": 1
     }
   ]

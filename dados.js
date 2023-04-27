@@ -1,4 +1,31 @@
+async function addBebida() {
+    event.preventDefault();
 
+    await fetch('http://localhost:8000/bebidas', {
+        method: 'POST',
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+            nome: input_nome.value,
+            descricao: input_descricao.value,
+            quantidade: input_quantidade.value,
+            foto: input_foto.value
+        })
+    });
+
+    alert('Pronto, bebida cadastrada');
+
+    //limpar os campos do form
+    form_cadastro.reset();
+
+    //vai simular que o usuario ta clicando no x pra fechar o formulario
+    //ou seja, dispara um evento de click
+    fechar_cadastro.dispatchEvent(new Event('click'));
+
+    //atualizar a tabela do HTML
+    buscarBebidas();
+}
 
 function abrirModal(foto, nome) {
     modalFotoConteudo.innerHTML = `<img width="100%" src="${foto}">`;

@@ -9,11 +9,24 @@
     </head>
     <body class="container">
         <h1 class="mt-4">Estoque de Bebidas</h1>
-        <p class="text-secondary">Proprietário: <strong>Rafael</strong></p>
+        <p class="text-secondary">Proprietário: <strong>André Moreira</strong></p>
 
-        <div class="form-check form-switch">
-            <input onchange="ativarDarkmode()" class="form-check-input" type="checkbox" role="switch" id="darkmode">
-            <label class="form-check-label" for="darkmode">Darkmode</label>
+        
+
+        
+
+        <div class="row">
+          <div class="col">
+              <div class="form-check form-switch">
+                <input onchange="ativarDarkmode()" class="form-check-input" type="checkbox" role="switch" id="darkmode">
+                <label class="form-check-label" for="darkmode">Darkmode</label>
+              </div>
+          </div>
+          <div class="col text-end">
+              <a class="btn btn-outline-primary" data-bs-toggle="offcanvas" href="#cadastro" role="button" aria-controls="offcanvasExample">
+                Cadastro
+              </a>
+          </div>
         </div>
 
         <hr>
@@ -33,6 +46,32 @@
             </thead>
             <tbody id="tabela-dados"></tbody>
         </table>
+
+        
+        
+        <div style="background-color: #EFEFEF;" class="offcanvas offcanvas-end" tabindex="-1" id="cadastro" aria-labelledby="offcanvasExampleLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Nova Bebida</h5>
+            <button id="fechar_cadastro" type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <form id="form_cadastro" action="" onsubmit="addBebida()">
+              <label for="input_nome">Nome</label>
+              <input type="text" id="input_nome" class="form-control mb-3">
+
+              <label for="input_descricao">Descrição</label>
+              <input type="text" id="input_descricao" class="form-control mb-3">
+
+              <label for="input_quantidade">Quantidade</label>
+              <input type="text" id="input_quantidade" class="form-control mb-3">
+
+              <label for="input_foto">Foto</label>
+              <input type="text" id="input_foto" class="form-control mb-3">
+
+              <button class="btn btn-primary w-100">PRONTO</button>
+            </form>
+          </div>
+        </div>
 
 
         <div class="modal fade modal-lg" id="modalFoto" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
